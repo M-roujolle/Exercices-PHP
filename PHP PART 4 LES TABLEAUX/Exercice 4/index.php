@@ -3,7 +3,13 @@
     $mois = ['Janvier', 'Fevrier', 'Mars', 'Avril', 'Mail', 'Juin', 'Juillet', 'Aout', 'Septembre', 'Octobre', 'Novembre', 'Décembre'];
     $replacements = array(7 => "août");
     $basket = array_replace($mois, $replacements);
-    print_r($basket)
+    print_r($basket);
+
+
+    // facon simplifié
+    // $mois = ['Janvier', 'Fevrier', 'Mars', 'Avril', 'Mail', 'Juin', 'Juillet', 'Aout', 'Septembre', 'Octobre', 'Novembre', 'Décembre'];
+    // $mois[7] = "août";
+    // print_r($mois);
 
     ?>
 

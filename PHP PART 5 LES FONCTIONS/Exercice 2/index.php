@@ -1,8 +1,13 @@
 <?php
-$ville = [2 => "aisne", 59 => "nord", 60 => "oise", 62 => "Pas-de-calais", 80 => "somme"];
-foreach ($ville as $key => $value) {
-    echo "le numero de departement: $key correspond à $value /// ";
+function test($message, $hfb, $sdf)
+{
+    return "$message $hfb $sdf";
 }
+
+echo test("gdf", "sdfijhfvsdoihufp", 154415)
+
+
+
 ?>
 
 
@@ -17,6 +22,8 @@ foreach ($ville as $key => $value) {
 </head>
 
 <body>
+
+
 
 </body>
 

@@ -4,7 +4,7 @@ $var1 = 0;
 $var2 = 50;
 
 while ($var1 < 20) {
-    echo $var1 * $var2 . " ";
+    echo nl2br($var1 * $var2 . "\n");
     $var1++;
 }
 

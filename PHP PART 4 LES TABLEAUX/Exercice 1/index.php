@@ -1,5 +1,4 @@
 <?php
-
 $mois = ['Janvier', 'Fevrier', 'Mars', 'Avril', 'Mail', 'Juin', 'Juillet', 'Aout', 'Septembre', 'Octobre', 'Novembre', 'Décembre'];
 print_r($mois); //permet d'afficher le tableau
 ?>

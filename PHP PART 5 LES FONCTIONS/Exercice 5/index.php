@@ -1,8 +1,11 @@
     <?php
 
-    $ville = ["02" => "aisne", 59 => "nord", 60 => "oise", 62 => "Pas-de-calais", 80 => "somme"];
-    var_dump($ville);
+    function test($string, $int)
+    {
 
+        return "$string $int";
+    }
+    echo test("coucou", 15)
     ?>
 
 

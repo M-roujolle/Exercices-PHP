@@ -6,6 +6,9 @@
         $var += $var / 2; //version simplifié de la ligne d'au dessus
     }
 
+    // for ($var = 1; $var <= 10; $var += $var / 2)
+    //     echo nl2br($var . "\n")
+
 
     ?>
 
